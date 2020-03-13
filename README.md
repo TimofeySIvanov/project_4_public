@@ -1,7 +1,8 @@
-This README file contains instructions for video "A Rough Plan".
+Timofey Ivanov
+Hangman game, there are famous movie phrases, user should guess them by choosing letters via pressing them on screen or pressing them on keyboard. Each time user gets letter wrong the color of button changes, the heart changes color and hangman feature is drawn.
 
-Your instructions are as follows:
+To fellow user/developer:
 
-1) Create a Library.js file, declare a Library class. Do not yet add a constructor method.
-2) Create a Book.js file, declare a Book class. Do not yet add a constructor method.
-3) Create a Patron.js file, declare a Patron class. Do not yet add a constructor method.
+If you want to add/remove phrases check phrases at Game.js
+If you want to change pictures of hangman check pictures, note that counting starts from 0.
+I would not suggest changing the number of tries, because you would need to change many parameters at code.
